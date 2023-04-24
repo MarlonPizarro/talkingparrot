@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Inicio"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        android:gravity="center"
+
+
+        >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/image1"
+
+
+
+            ></ImageView>
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            ></ImageView>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/image2"
+
+            ></ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Busque texto de referencia"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            ></TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        >
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:src="@drawable/buscador"
+            android:layout_gravity="center"
+
+            ></ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/image10"
+            android:layout_gravity="center"
+            android:foregroundGravity="center"
+            android:layout_margin="20dp"
+
+
+            ></ImageView>
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/image15"
+            android:layout_gravity="center"
+            android:foregroundGravity="center"
+            android:layout_margin="20dp"
+
+
+            ></ImageView>
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/image16"
+            android:layout_gravity="center"
+            android:foregroundGravity="center"
+            android:layout_margin="20dp"
+
+
+            ></ImageView>
+
+
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="25dp"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_gravity="center"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="Noticias"
+        android:textSize="20dp"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:layout_gravity="center"
+
+
+
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="Futbol"
+        android:textSize="20dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_gravity="center"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="Cine"
+        android:textSize="20dp"
+        android:layout_weight="1"
+        android:gravity="left"
+        android:layout_gravity="center"
+        ></TextView>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/image17"
+            android:layout_gravity="center"
+            android:foregroundGravity="center"
+            android:layout_margin="20dp"
+
+
+            ></ImageView>
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/image18"
+            android:layout_gravity="center"
+            android:foregroundGravity="center"
+            android:layout_margin="20dp"
+
+
+            ></ImageView>
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/image19"
+            android:layout_gravity="center"
+            android:foregroundGravity="center"
+            android:layout_margin="20dp"
+
+
+            ></ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="Cuentos"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:layout_gravity="center"
+
+
+
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="Cincias"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="center"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="Historias"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:layout_gravity="center"
+            ></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        ></LinearLayout>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:src="@drawable/ic_linea"
+        ></ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+
+        >
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="I"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"
+
+            ></Button>
+
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="T"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"
+
+            ></Button>
+
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="IA"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"
+
+            ></Button>
+
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="R"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"
+
+            ></Button>
+
+    </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
