@@ -13,8 +13,26 @@
         android:theme="@style/Theme.TalkingParrot"
         tools:targetApi="31">
         <activity
+            android:name=".Cuentos"
+            android:exported="false" />
+        <activity
+            android:name=".Ciencias"
+            android:exported="false" />
+        <activity
+            android:name=".Historias"
+            android:exported="false" />
+        <activity
+            android:name=".Noticias"
+            android:exported="false" />
+        <activity
+            android:name=".Cine"
+            android:exported="false" />
+        <activity
+            android:name=".Futbol"
+            android:exported="false" />
+        <activity
             android:name=".Inicio"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,9 +41,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
     </application>
 
 </manifest>
